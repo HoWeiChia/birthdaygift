@@ -21,7 +21,8 @@ body{
 
 h1{
     color: #ff4d88;
-    font-size:20px;
+    font-size:clamp(28px, 6vw, 42px);
+    line-height:1.2;
 }
 
 h2{
