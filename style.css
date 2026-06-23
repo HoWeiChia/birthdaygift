@@ -496,3 +496,9 @@ p{
         transform:(1);
     }
 }
+
+.birthday-title{
+    font-size:55px;
+    white-space:nowrap;
+    line-height:1.2;
+}
