@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>給我親愛的老婆 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="login-screen">
+        <div class="login-card">
+            <h1> 💜 小菜＆小柯南  💜</h1>
+            <p class="login-text">
+                謝謝妳出現在我的生命裡✨
+            </p>
+
+            <input
+                type="password"
+                id="password-input"
+                placeholder="請輸入密碼">
+            <br><br>
+
+            <button id="login-btn">
+                給我的寶貝
+            </button>
+        </div>
+    </div>
+
+    <div id="welcome-screen">
+        <h1>恭喜進入這個世界!!!</h1>
+    </div>
+
+    <div class="container" id="main-content">
+        <h1>🩵 Happy Birthday 💜</h1>
+
+        <h2>我親愛的老婆</h2>
+
+        <img
+            id="slideshow"
+            src="images/1.jpg"
+            alt="照片"
+            class="main-photo">
+
+        <p id="memory-text">
+            
+        </p>
+
+        <button id="open-letter">
+            閱讀
+        </button>
+
+        <button id="music-btn">
+            定情曲🎵
+        </button>
+
+        <audio id="bgm" loop>
+            <source src="music/birthday.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="surprise-btn">
+            點我開啟驚喜✨
+        </button>
+        <div id="surprise-message">
+            💜生日快樂💜
+        </div>
+
+        <button id="final-gift">
+            最後一份禮物💜
+        </button>
+        
+        <div id="letter-modal">
+            <div class="letter-box">
+                <h3> 給老婆💜 </h3>
+                <p id="letter-content"></p>
+                <button id="close-letter">
+                    收起情書
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="final-message">
+        <div class="final-card">
+            <img
+                src="images/haha.jpg"
+                alt="哈哈"
+                class="haha-photo">
+            <h1 id="birthday-text"></h1>
+            <p class="gift-text">
+                哈哈 生日快樂!
+                <br><br>
+                痾 女人 生日快樂!
+            </p>
+            <button id="close-final">
+                收下祝福
+            </button>
+        </div>
+    </div>
+<div id="heart-container"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
